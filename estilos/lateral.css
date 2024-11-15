@@ -1,0 +1,140 @@
+#menu{
+    
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /*flex-direction: column;*/
+    display: flex;
+
+}
+   img{
+
+    
+    border-radius: 50%;
+    
+    }
+   nav div ul{ 
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+
+
+   }
+   nav div ul li{
+    margin: 0 15px;
+    padding: 15px;
+   }
+   nav div ul li a{
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: aliceblue;
+
+   }
+   nav div ul li a:hover{
+    background-color:#ADD8E6;
+   }
+   footer div ul {
+    justify-content: center;
+    display: flex;
+   }
+   .container{
+    background-color:rgb(220, 220, 220) ;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgb(105, 105, 105); 
+    transition: transform 0.3s ;
+
+
+   }
+   .container:hover{
+    transform: scale(1.05);
+
+   }
+   .reference_card{
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    
+
+   }
+   
+.card_ref{
+    
+text-align: center;
+width: 220px;
+background-color:rgb(250, 128, 114) ;
+margin: 15px;
+padding: 5px;
+border-radius: 15px;
+box-shadow: 0px 2px 8px rgb(119, 136, 153) ;
+
+}
+#tarjetas{
+   display: flex; 
+   
+}
+
+.card{
+   background-color:rgb(216, 191, 216) ; 
+   width: 120px;
+   height: 50px;
+   margin: 20px;
+   padding: 20px;
+   border-radius: 20px;
+   box-shadow: 0px 2px 8px rgb(119, 136, 153) ;
+
+
+}
+footer{
+    background-color: #7FFFD4;
+    height: 75px;
+    margin: 15px ;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px rgb(119, 136, 153) ;
+}
+footer div ul{
+
+list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+footer div ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+footer div ul li a:hover{
+    background-color: rgb(70, 48, 124);
+
+}
+@media(max-width:400px){
+ .container{
+    flex-direction: column;
+ }
+#menu{
+    flex-direction: column;
+}
+   
+}
+.modal-content{ 
+    /*display: none;*/
+    background-color: rgb(39, 12, 45);
+    margin: 20px;
+    padding: 20px;
+    
+
+}
+#modal{
+    display: none;
+}
+.close-btn{
+    cursor: pointer;
+    float: right;
+    font-size: 3.0rem;
+    
+ }
